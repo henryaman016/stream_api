@@ -120,8 +120,6 @@ public class Main {
 //        }
 
 
-
-
         //Descending Order Array
 
 //        int arr[]={1,2,5,6,4,3,9,7};
@@ -181,6 +179,81 @@ public class Main {
 //        fr.remove("Banana");
 //        System.out.println(fr);
 
-    }
 
-}
+        //Fibonacci Example
+
+//        int n1=0,n2=1,n3,i,count=10;
+//        System.out.println(n1+" "+n2);
+//
+//        for (i=2;i<count;++i){
+//            n3=n1+n2;
+//            System.out.println(" "+n3);
+//            n1=n2;
+//            n2=n3;
+//    }
+
+//        int count = 10;
+//        System.out.println(n1 + " " + n2);
+//        printFibonacci(count - 2);
+//    }
+//    static int n1=0,n2=1,n3=0;
+//    static void printFibonacci(int count){
+//        if (count>0){
+//            n3=n1+n2;
+//            n1=n2;
+//            n2=n3;
+//            System.out.println(" "+n3);
+//            printFibonacci(count - 1);
+//        }
+
+
+//        //PRIME NUM
+//        System.out.println("Prime no. btn  to 100:");
+//
+//        for (int i = 2; i <= 100; i++) {
+//            if (isPrime(i)) {
+//                System.out.println(i + " ");
+//            }
+//        }
+//    }
+//        public static boolean isPrime(int num){
+//            if (num<=1){
+//                return false;
+//            }
+//            for (int i=2;i<=Math.sqrt(num);i++){
+//                if (num%i==0){
+//                    return false;
+//                }
+//            }
+//            return true;
+
+
+        //Armstrong Numbers
+
+//                System.out.println("Armstrong numbers between 0 and 100:");
+//                for (int i = 0; i <= 100; i++) {
+//                    if (isArmstrong(i)) {
+//                        System.out.print(i + " ");
+//                    }
+//                }
+//            }
+//
+//            // Check if a number is Armstrong
+//            public static boolean isArmstrong(int num) {
+//                int originalNum = num;
+//                int sum = 0;
+//                int numDigits = String.valueOf(num).length();
+//
+//                while (num > 0) {
+//                    int digit = num % 10;
+//                    sum += Math.pow(digit, numDigits);
+//                    num /= 10;
+//                }
+//
+//                return sum == originalNum;
+
+
+            }
+        }
+
+
