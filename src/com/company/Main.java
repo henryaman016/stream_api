@@ -2,6 +2,7 @@ package com.company;
 
 import com.sun.source.doctree.SeeTree;
 
+import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -118,5 +119,68 @@ public class Main {
 //            System.out.println();
 //        }
 
+
+
+
+        //Descending Order Array
+
+//        int arr[]={1,2,5,6,4,3,9,7};
+//        Arrays.sort(arr);
+////
+//        reverse(arr);
+//        System.out.println(Arrays.toString(arr));
+//    }
+//
+//    public static void reverse(int[] arr){
+//        int left=0;
+//        int right=arr.length-1;
+//        while (left<right){
+//            int temp=arr[left];
+//            arr[left]=arr[right];
+//            arr[right]=temp;
+//            left++;
+//            right--;
+//        }
+
+
+//HashMap
+
+//        Map<String,Integer> scores=new HashMap<>();
+//        scores.put("Alice",90);
+//        scores.put("Bob",85);
+//        scores.put("Charlie",25);
+//
+//        int aliceScore=scores.get("Alice");
+//
+//        System.out.println("Alice's score :"+ aliceScore);
+//
+//       boolean hasKey= scores.containsKey("Bob");
+//
+//        System.out.println("Has Bob Score"+ hasKey);
+
+
+//        Hashtable<String ,String > count=new Hashtable<>();
+//        count.put("USA","United States");
+//        count.put("IND","India");
+//        count.put("JPN","Japan");
+//        count.put("RSA","Russia");
+//
+//        String indName=count.get("IND");
+//        System.out.println("IND: "+indName);
+
+//
+//        List<String > fr=new ArrayList<>();
+//
+//        fr.add("Apple");
+//        fr.add("Banana");
+//        fr.add("Orange");
+//
+//        String secFr=fr.get(1);
+//        System.out.println(secFr);
+//
+//        fr.remove("Banana");
+//        System.out.println(fr);
+
     }
+
 }
