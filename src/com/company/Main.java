@@ -252,8 +252,104 @@ public class Main {
 //
 //                return sum == originalNum;
 
+//
+//        ArrayList x=new ArrayList();
+//        x.add(10);
+//        x.add(20);
+//        x.add(30);
+//        x.add(50);
+//
+//
+//        System.out.println(x);
 
-            }
-        }
+//        ArrayList x=new ArrayList();
+//        x.add(10);
+//        x.add(20);
+//        x.add(new Integer(5));
+//        x.add("Pankaj");
+//        x.add(true);
+//        x.add(10.3);
+//
+//        System.out.println(x);
 
+
+//        ArrayList<Integer> x = new ArrayList<Integer>();
+//        x.add(10);
+//        x.add(20);
+//        x.add(30);
+//        x.add(40);
+//        System.out.println("add method(): " + x);
+//
+//        x.add(1, 500);
+//        System.out.println("add(index,value) method():" + x);
+//        ArrayList<Integer> y = new ArrayList<Integer>();
+//        y.add(300);
+//        y.add(500);
+//        x.addAll(2, y);
+//        System.out.println("addAll(index,collection) method():" + x);
+//
+//        if (x.contains(500)) {
+//            System.out.println("yes present");
+//        } else {
+//            System.out.println("no present");
+//        }
+//        x.remove(1);
+//        System.out.println("remove(index) method():" + x);
+//
+//        System.out.println(x.get(1));
+//
+//        Iterator itr = x.iterator();
+//        while (itr.hasNext()) {
+//            System.out.println("value of x:" + itr.next());
+//        }
+
+
+//        List<Integer> x=new LinkedList<Integer>();
+//        x.add(10);
+//        x.add(20);
+//        x.add(3);
+//        System.out.println("Array size:"+x.size());
+//        System.out.println("add method():"+x);
+//        x.add(1,500);
+//        System.out.println("add(index,value)method():"+x);
+//
+//        ArrayList<Integer> y=new ArrayList<Integer>();
+//        y.add(300);
+//        y.add(500);
+//        x.addAll(2,y);
+//        System.out.println("addAll(index,collection) method():"+x);
+//        if (x.contains(500)){
+//            System.out.println("yes present");
+//        }else {
+//            System.out.println("not present");
+//        }
+//        x.remove(2);
+//        System.out.println("remove(index)method():"+x);
+//        System.out.println(x.get(1));
+//
+//        Iterator itr=x.iterator();
+//        while (itr.hasNext()){
+//            System.out.println("value of x:"+itr.next());
+//        }
+
+
+//        LinkedList<Integer> x=new LinkedList<Integer>();
+//        x.add(100);
+//        x.add(200);
+//        x.add(4000);
+//        x.add(756);
+//        x.addFirst(5781);
+//        x.addLast(846);
+//        x.add(258);
+//        System.out.println(x);
+
+
+//        HashSet<Integer> hashSet=new HashSet<Integer>();
+////        hashSet.add(20);
+////        hashSet.add(30);
+////        hashSet.add(40);
+////        hashSet.add(50);
+////        System.out.println(hashSet);
+    }
+}
 
