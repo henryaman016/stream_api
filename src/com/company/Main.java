@@ -350,6 +350,15 @@ public class Main {
 ////        hashSet.add(40);
 ////        hashSet.add(50);
 ////        System.out.println(hashSet);
+
+
+        List<Integer> num=Arrays.asList(1,2,2,7,8,9,3,4,5,1,4);
+
+        List<Integer> dup = num.stream().filter(e -> Collections.frequency(num, e) > 1).distinct()
+                .collect(Collectors.toList());
+        System.out.println(dup);
+
+
     }
 }
 
